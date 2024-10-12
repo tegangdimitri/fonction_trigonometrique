@@ -10,7 +10,7 @@ int main()
         std :: cin >> x ;
         std :: cout << "Entrer la precision \n";
         std :: cin >> n;
-        if (x < 0 && x > 360 ) // cette condition permet de trouver la mesure principale des angles > 360
+        if (x > 0 && x > 360 ) // cette condition permet de trouver la mesure principale des angles > 360
         {
             while(x>360)
             {
